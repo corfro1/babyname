@@ -1,0 +1,32 @@
+body {
+    background-color: #C77CFF;
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  div {
+    margin: 10px auto;
+  }
+  
+  #scrambled-word-1, #scrambled-word-2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  label {
+    display: inline-block;
+    width: 50px;
+  }
+  
+  input[type="text"] {
+    width: 150px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
