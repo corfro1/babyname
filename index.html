@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Frost Baby Name Guessing Game</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-  <body>
-    <h1>Frost Baby Name Guessing Game</h1>
-    <div id="scrambled-word-1"></div>
-    <label for="guess-input-1">Guess:</label>
+<head>
+  <meta charset="UTF-8">
+  <title>Frost Baby Name Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Frost Baby Name Guessing Game</h1>
+  <div>
+    <label for="guess-input-1">First Name:</label>
+    <span id="scrambled-word-1"></span>
+    <br>
     <input type="text" id="guess-input-1">
     <button id="guess-button-1">Submit</button>
-    <div id="message-1"></div>
-    <div id="scrambled-word-2"></div>
-    <label for="guess-input-2">Guess:</label>
+    <p id="message-1"></p>
+  </div>
+  <div>
+    <label for="guess-input-2">Middle Name:</label>
+    <span id="scrambled-word-2"></span>
+    <br>
     <input type="text" id="guess-input-2">
     <button id="guess-button-2">Submit</button>
-    <div id="message-2"></div>
-    <script src="script.js"></script>
-  </body>
+    <p id="message-2"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
